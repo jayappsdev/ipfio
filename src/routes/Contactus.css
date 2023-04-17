@@ -1,0 +1,72 @@
+.contact-container-contactus{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    gap: 1.5rem;
+    background: #eeeeee;
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.8); 
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 10rem
+}
+
+.form-container-contactus{
+    padding: 20px;
+}
+
+.form-container-contactus h3{
+    font-size: 1.2rem;
+    font-weight: 600 bold;
+    margin-bottom: 1rem;
+}
+
+.contact-form-contactus{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.contact-form-contactus input,
+.contact-form-contactus textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #eeeeee;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #525252;
+    border-radius: 0.4rem;
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.8);
+}
+
+.contact-form-contactus textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-form-contactus .send-button{
+    border: none;
+    outline: none;
+    background: #111;
+    color: #eeeeee;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form-contactus .send-button:hover{
+    background: hsla(0, 0%, 29%, 0.8);
+    transition: 0.3s all linear;
+}
+
+@media screen and (max-width: 700px){
+    .contact-container-contactus{
+        margin: 0 auto;
+        width: 90%;
+        gap: 1rem;
+        margin-top: 10rem !important;
+        margin-bottom: 5rem !important;
+    }
+}
